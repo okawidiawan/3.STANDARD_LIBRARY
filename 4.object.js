@@ -29,3 +29,17 @@
   console.log(person);
   //   { firstName: 'Oka', lastName: 'Ozu' }
 }
+
+{
+  const target = { firstName: "Oka" };
+  const source = {
+    firstName: "Bezarius",
+    middleName: "Ozu",
+    lastName: "Widiawan",
+  };
+
+  Object.assign(target, source);
+
+  console.log(target);
+  //   { firstName: 'Bezarius', middleName: 'Ozu', lastName: 'Widiawan' }
+}
