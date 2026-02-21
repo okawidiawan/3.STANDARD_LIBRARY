@@ -43,3 +43,17 @@
   console.log(target);
   //   { firstName: 'Bezarius', middleName: 'Ozu', lastName: 'Widiawan' }
 }
+
+{
+  const person = {
+    firstName: "Oka",
+    middleName: "Ozu",
+    lastName: "Widiawan",
+  };
+
+  console.log(Object.values(person));
+  //   [ 'Oka', 'Ozu', 'Widiawan' ]
+
+  console.log(Object.getOwnPropertyNames(person));
+  //   [ 'firstName', 'middleName', 'lastName' ]
+}
